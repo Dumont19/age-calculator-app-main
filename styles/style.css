@@ -109,14 +109,14 @@ input:hover {
 }
 .result span {
     color: var(--purple);
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 800;
     font-style: italic;
 }
 
 .result p {
     color: var(--off-black);
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 800;
     font-style: italic;
 }
