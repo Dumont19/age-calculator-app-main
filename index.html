@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles/style.css">
-  <script src="js/index.js" defer></script>
-  
-  <title>Frontend Mentor | Age calculator app</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="styles/style.css" />
+    <script
+      src="js/index.js"
+      defer></script>
 
-  <main>
-    <div class="container">
-      Day
-      DD
-      Month
-      MM
-      Year
-      YYYY
-      -- years
-      -- months
-      -- days
-    </div>
-  </main>
-</body>
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="date">
+          <div class="day">
+            <label for="day">day</label>
+            <input
+              type="text"
+              inputmode="numeric"
+              id="day"
+              placeholder="DD"
+              maxlength="2"
+              required />
+          </div>
+          <div class="month">
+            <label for="month">month</label>
+            <input
+              type="text"
+              inputmode="numeric"
+              id="month"
+              placeholder="MM"
+              maxlength="2"
+              required />
+          </div>
+          <div class="year">
+            <label for="year">year</label>
+            <input
+              type="text"
+              inputmode="numeric"
+              id="year"
+              placeholder="YYYY"
+              maxlength="4"
+              required />
+            </div>
+          </div>
+          <div class="submit-button">
+            <div class="line"></div>
+            <button type="submit">
+              <img
+              class="arrow"
+              src="assets/images/icon-arrow.svg"
+              alt="arrow icon" />
+            </button>
+          </div>
+          <div class="result">
+            <div class="result-y">
+              <span>- -</span>
+              <p>years</p>
+            </div>
+            <div class="result-m">
+              <span>- -</span>
+              <p>months</p>
+            </div>
+            <div class="result-d">
+              <span>- -</span>
+              <p>days</p>
+            </div>
+          </div>
+        </div>
+    </main>
+  </body>
 </html>
