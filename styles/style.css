@@ -110,6 +110,7 @@ input:hover {
 .result span {
     color: var(--purple);
     font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     font-style: italic;
 }
@@ -117,6 +118,7 @@ input:hover {
 .result p {
     color: var(--off-black);
     font-size: 5.5rem;
+    font-size: 6rem;
     font-weight: 800;
     font-style: italic;
 }
@@ -168,6 +170,7 @@ input:hover {
 
     input::placeholder {
         font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     button {
