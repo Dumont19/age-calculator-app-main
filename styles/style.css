@@ -62,6 +62,13 @@ button:hover {
     margin-right: 12rem;
 }
 
+.date small {
+    color: var(--light-red);
+    font-size: .9rem;
+    font-style: italic;
+    display: none;
+}
+
 label {
     display: block;
     color: var(--smoke-grey);
@@ -77,8 +84,9 @@ input {
     color: var(--off-black);
     width: 100%;
     padding: 1rem;
+    margin-bottom: .75rem;
     border-radius: .5rem;
-    outline: 0;
+    outline: none;
     font-size: 2rem;
     font-weight: 800;
     cursor: pointer;
@@ -137,6 +145,11 @@ input:hover {
     display: flex;
     align-items: center;
 }
+
+.error {
+    border: 1px solid var(--light-red);
+}
+
 
 @media (max-width: 820px) {
     .container {

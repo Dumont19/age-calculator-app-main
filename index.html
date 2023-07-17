@@ -24,7 +24,7 @@
       <div class="container">
         <div class="date">
           <div class="day">
-            <label for="day">day</label>
+            <label id="label-day" for="day">day</label>
             <input
               type="text"
               inputmode="numeric"
@@ -32,9 +32,10 @@
               placeholder="DD"
               maxlength="2"
               required />
+              <small>This field is required</small>
           </div>
           <div class="month">
-            <label for="month">month</label>
+            <label id="label-month" for="month">month</label>
             <input
               type="text"
               inputmode="numeric"
@@ -42,9 +43,10 @@
               placeholder="MM"
               maxlength="2"
               required />
+              <small>This field is required</small>
           </div>
           <div class="year">
-            <label for="year">year</label>
+            <label id="label-year" for="year">year</label>
             <input
               type="text"
               inputmode="numeric"
@@ -52,11 +54,12 @@
               placeholder="YYYY"
               maxlength="4"
               required />
+              <small>This field is required</small>
             </div>
           </div>
           <div class="submit-button">
             <div class="line"></div>
-            <button type="submit">
+            <button class="btn" type="submit">
               <img
               class="arrow"
               src="assets/images/icon-arrow.svg"
