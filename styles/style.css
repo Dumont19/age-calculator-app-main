@@ -62,12 +62,22 @@ button:hover {
     margin-right: 12rem;
 }
 
-.date small {
+.date small.blank-field,
+.date small.format-error {
     color: var(--light-red);
     font-size: .9rem;
     font-style: italic;
     display: none;
 }
+
+.date small.format-error {
+    color: var(--light-red);
+    font-size: .9rem;
+    font-style: italic;
+    display: none;
+}
+
+
 
 label {
     display: block;
