@@ -10,8 +10,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-- [Author](#author)
 
 ## Overview
 
@@ -32,12 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/age-calculator-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/age-calculator-app-using-vanilla-javascript-3bb3jAZ0lq)
+- Live Site URL: (https://age-calculator-app-main-dumont19.vercel.app/)
 
 ## My process
 
@@ -49,6 +47,4 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
