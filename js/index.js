@@ -31,6 +31,7 @@ const transformDate = () => {
             labelDay.style.color = 'var(--smoke-grey)'
             inputDay.classList.remove('error')
             errorMessage[0].style.display = 'none'
+            errorFormatMessage[0].style.display = 'none'
             resDay.textContent = `${data[2]}`
         }
 
@@ -38,7 +39,6 @@ const transformDate = () => {
             labelMonth.style.color = 'var(--light-red)'
             inputMonth.classList.add('error')
             errorMessage[1].style.display = 'block'
-            resMonth.textContent = '- -'
         } else if (numberPatternRegex.test(inputMonth.value) === false || rangeMonthPatternRegex.test(inputMonth.value) === false ){
             labelMonth.style.color = 'var(--light-red)'
             inputMonth.classList.add('error')
@@ -46,7 +46,8 @@ const transformDate = () => {
         } else {
             labelMonth.style.color = 'var(--smoke-grey)'
             inputMonth.classList.remove('error')
-            errorMessage[1].style.display = 'none' 
+            errorMessage[1].style.display = 'none'
+            errorFormatMessage[1].style.display = 'none'
             resMonth.textContent = `${data[1]}`
         }
 
@@ -62,6 +63,7 @@ const transformDate = () => {
             labelYear.style.color = 'var(--smoke-grey)'
             inputYear.classList.remove('error')
             errorMessage[2].style.display = 'none' 
+            errorFormatMessage[2].style.display = 'none'
             resYear.textContent = `${data[0]}`
         }
     }

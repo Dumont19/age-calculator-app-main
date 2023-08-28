@@ -125,15 +125,14 @@ input:hover {
 }
 .result span {
     color: var(--purple);
-    font-size: 5rem;
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 800;
     font-style: italic;
+    margin-right: .75rem;
 }
 
 .result p {
     color: var(--off-black);
-    font-size: 5.5rem;
     font-size: 6rem;
     font-weight: 800;
     font-style: italic;
@@ -142,16 +141,19 @@ input:hover {
 .result-y {
     display: flex;
     align-items: center;
+    height: 120px;
 }
 
 .result-m {
     display: flex;
     align-items: center;
+    height: 120px;
 }
 
 .result-d {
     display: flex;
     align-items: center;
+    height: 120px;
 }
 
 .error {
@@ -186,7 +188,7 @@ input:hover {
     }
 
     input  {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     input::placeholder {
@@ -198,15 +200,22 @@ input:hover {
     }
 
     .result {
-        margin-top: 4.5rem;
+        margin-top: 5.5rem;
+    }
+
+    .result-d,
+    .result-m,
+    .result-y {
+        height: 60px;
+        margin-bottom: .5rem;
     }
 
     .result span {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .result p {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 
